@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Payload encryption";
+}
+<h1>Payload encryption using RSA 1024 private public keys </h1>
+
+<div class="text-center">
+    <p>
+        1st json object: <br/>
+        @ViewBag.S1
+    </p>
+    <br />
+    <p>
+        2nd json object: <br />
+        @ViewBag.S2
+    </p>
+    <br />
+    <p>
+        1st  json object being encrypted: <br />
+        @ViewBag.S3
+    </p>
+    <br />
+    <p>
+        encrypted json object being decrypted: <br />
+        @ViewBag.S4
+    </p>
+    <br />
+    <p>
+        decrypted text being Deserialize JSON object : <br/>
+        @ViewBag.S5
+    </p>
+    <br />
+    <p>
+        comparing decrypted JSON object and  2nd json object <br/>
+        @ViewBag.S6
+    </p>
+    <br />
+</div>

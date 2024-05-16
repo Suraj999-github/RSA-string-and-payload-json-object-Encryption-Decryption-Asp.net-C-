@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RSA_encryption-decryption.props" />
+</Project>
